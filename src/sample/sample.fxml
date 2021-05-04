@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <Pane GridPane.rowIndex="1">
+         <children>
+            <Label layoutX="12.0" layoutY="40.0" text="Artekel ID">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <TextField fx:id="Idartikel" layoutX="91.0" layoutY="36.0" promptText="IdArtikel">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <Label layoutX="252.0" layoutY="190.0" text="Åldersgräns">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="14.0" layoutY="87.0" text="titel">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="9.0" layoutY="140.0" text="StreckKodNr">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="13.0" layoutY="330.0" text="HyllplatsNr">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="13.0" layoutY="190.0" text="Författare">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="12.0" layoutY="237.0" text="Regissör">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="10.0" layoutY="284.0" prefHeight="31.0" prefWidth="50.0" text="ISBN">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="254.0" layoutY="284.0" text="Maxlånetid">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="254.0" layoutY="40.0" text="Klassificering">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="254.0" layoutY="87.0" text="Genrer">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="254.0" layoutY="139.0" text="ProduktionsLand">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <Label layoutX="253.0" layoutY="237.0" text="Skådespelare">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></Label>
+            <TextField fx:id="titel" layoutX="91.0" layoutY="83.0" promptText="Titel">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="stkod" layoutX="91.0" layoutY="135.0" promptText="StreckKodNr">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="författare" layoutX="91.0" layoutY="186.0" promptText="Författare">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="reg" layoutX="91.0" layoutY="233.0" promptText="Regissör">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="idbn" layoutX="91.0" layoutY="280.0" promptText="ISBN">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="hyplnr" layoutX="91.0" layoutY="326.0" promptText="HyllplatsNr">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="klass" layoutX="352.0" layoutY="36.0" promptText="Klassificering">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="genrer" layoutX="352.0" layoutY="83.0" promptText="Genrer">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="proland" layoutX="352.0" layoutY="135.0" promptText="ProdktionsLand">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="åldergr" layoutX="352.0" layoutY="186.0" promptText="Åldersgräns">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="skådsp" layoutX="352.0" layoutY="233.0" promptText="Skådespelare">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <TextField fx:id="maxlt" layoutX="352.0" layoutY="280.0" promptText="MaxLåneTid">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding></TextField>
+            <Button fx:id="sparabutton" layoutX="312.0" layoutY="375.0" mnemonicParsing="false" onAction="#Artiklar" prefHeight="25.0" prefWidth="80.0" text="Spara" />
+            <Button fx:id="avbrytbutton" layoutX="414.0" layoutY="375.0" mnemonicParsing="false" onAction="#avbryt" prefHeight="25.0" prefWidth="80.0" text="Avbryt" />
+            <Pane layoutY="-12.0" prefHeight="40.0" prefWidth="157.0" style="-fx-background-color: #CCE5FF;">
+               <children>
+                  <Text fill="#514c54" layoutY="24.0" stroke="#0a0a0a" strokeType="OUTSIDE" strokeWidth="0.0" style="fx-b: #2d752b;" text="Hantera artikel" wrappingWidth="193.50775146484375">
+                     <font>
+                        <Font name="Arabic Typesetting" size="35.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+         <opaqueInsets>
+            <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+         </opaqueInsets>
+      </Pane>
+   </children>
+</GridPane>
